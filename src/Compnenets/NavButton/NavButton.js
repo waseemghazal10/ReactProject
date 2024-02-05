@@ -6,8 +6,7 @@ function NavButton(props) {
 
   return (
       <button class = "btn"><i class={props.icon}></i> 
-      <span>{props.name}</span> 
-      </button>
+      <span>  {props.name}</span> </button>
   )
 }
 
