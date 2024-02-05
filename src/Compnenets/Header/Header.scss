@@ -3,22 +3,27 @@ $medium: 400px;
 .header{
     height: 100px;
     width: 100%;
-    position: absolute;
+    
+    display: flex;
+    justify-content: center;
 
     .t1{
+        position: absolute;
+        right: 0;
         background-image: linear-gradient(to left, #6bd79c, #264d37);
         clip-path: polygon(100% 0 , 100% 60% , 0 0);
     }
 
     .t2{
+        position: absolute;
+        left:0;
         background-image: linear-gradient(to right, #3070A3, #4eb9b0);
         clip-path: polygon(0 0, 0 60% , 85% 0);
     }
 
     .headerText{
 
-        margin-top: 45px;
-        text-align:center;
+        padding-top: 45px;
 
         h1{
             background: linear-gradient(to right, #3b7152, #6bd79c);
@@ -28,7 +33,7 @@ $medium: 400px;
             
     
             @media screen and (max-width: $medium) {
-                font-size: medium;
+                font-size: 15px;    
             }
         } 
 
@@ -37,7 +42,7 @@ $medium: 400px;
             color: rgb(53, 52, 52);
 
             @media screen and (max-width: $medium) {
-                font-size: 13px;
+                font-size: 9px;
             }
         }
     }
