@@ -1,4 +1,6 @@
 import './App.css';
+import Body from './Compnenets/Body/Body';
+// import Card from './Compnenets/Card/Card';
 import Header from './Compnenets/Header/Header';
 import Navbar from './Compnenets/Navbar/Navbar';
 
@@ -7,6 +9,7 @@ function App() {
     <div>
       <Navbar/>
       <Header/>
+      <Body/>
     </div>
   );
 }

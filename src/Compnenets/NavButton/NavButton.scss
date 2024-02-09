@@ -6,7 +6,7 @@ $medium: 400px;
     border:1px solid rgb(194, 194, 194);
     border-radius: 5px;
     margin: 1px;
-    background-color: transparent;
+    background-color: white;
     padding-block: 5px;
     
     @media screen and (max-width: $medium) {
@@ -14,4 +14,14 @@ $medium: 400px;
             display: none;
         }
     }
+
+
+    i{
+        background-color: white;
+    }
+
+    span{
+        background-color:white;
+    }
 }
+

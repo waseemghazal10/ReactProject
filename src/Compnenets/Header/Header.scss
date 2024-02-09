@@ -1,11 +1,12 @@
 $medium: 400px;
 
 .header{
-    height: 100px;
+    height: 120px;
     width: 100%;
     
     display: flex;
     justify-content: center;
+    background-color: white;
 
     .t1{
         position: absolute;
@@ -22,7 +23,7 @@ $medium: 400px;
     }
 
     .headerText{
-
+        background-color: #fff;
         padding-top: 45px;
 
         h1{
@@ -33,13 +34,15 @@ $medium: 400px;
             
     
             @media screen and (max-width: $medium) {
-                font-size: 15px;    
+                font-size: 13px;  
+                padding-top: 20px;  
             }
         } 
 
         p{
             font-size: 15px;
             color: rgb(53, 52, 52);
+            background-color: #fff;
 
             @media screen and (max-width: $medium) {
                 font-size: 9px;

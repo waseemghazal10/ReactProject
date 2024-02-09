@@ -1,0 +1,46 @@
+.card {
+    // width: 250px;
+    // height: 350px;
+    display: block;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 20px;
+    // padding-inline: 20px;
+
+    img {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .cardBody {
+
+        padding-inline: 20px;
+        background-color: white;
+
+        h1 {
+            font-size: 13PX;
+            color: black;
+            background-color: white;
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 24PX;
+            font-weight: bold;
+            background-color: white;
+        }
+
+        .rating {
+            background-color: white;
+        }
+
+        p {
+            font-size: 15px;
+            color: gray;
+            background-color: white;
+        }
+    }
+}

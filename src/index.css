@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
+  height: 100%;
 }
 
 code {
@@ -11,10 +12,10 @@ code {
 
 *{
   box-sizing: border-box;
+  background-color: #F1F9FF;
 }
 
 h1{
   margin : 0;
   padding: 0;
 }
-
