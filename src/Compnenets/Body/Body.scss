@@ -1,0 +1,29 @@
+.container{
+    
+    display: block;
+    padding-top: 20px;
+
+
+    .bodyCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-bottom: 10px;
+        padding-inline: 20px;
+        gap: 20px;
+
+    }
+
+    input{
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        border-color: none;
+        box-shadow: 3px;
+        text-align: center;
+    }
+
+    h1{
+
+    }
+
+}
