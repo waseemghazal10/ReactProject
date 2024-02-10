@@ -1,0 +1,41 @@
+$small: 400px;
+$medium: 1024px;
+
+.searchBar{
+
+    background-color: #fff;
+    display: flex;
+    background-color: #fff;
+    width : 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    @media screen and (max-width: $small) {
+        width : 50%;
+    }
+
+    @media screen and (max-width: $medium) and (min-width: $small) {
+        width : 60%;
+    }
+
+
+    i{
+        display: flex;
+        color: rgb(179, 179, 179);
+        font-size: 16px;
+        font-weight: 10;
+        background-color: #fff;
+        padding-right: 3px;
+        padding-left: 5px;
+        height: 100%;
+        align-items: center;
+    }
+
+    input{
+        border: none;
+        color: rgb(179, 179, 179);
+        background-color: #fff;
+        width : 100%;
+
+    }
+}

@@ -1,11 +1,7 @@
 .card {
-    // width: 250px;
-    // height: 350px;
     display: block;
     border-radius: 5px;
     background-color: white;
-    padding-bottom: 20px;
-    // padding-inline: 20px;
 
     img {
         width: 100%;
@@ -24,21 +20,30 @@
             font-size: 13PX;
             color: black;
             background-color: white;
-            font-weight: 300;
+            font-weight: 400;
+            padding-top: 10px;
+            padding-bottom: 0;
         }
 
         h2 {
-            font-size: 24PX;
-            font-weight: bold;
+            font-size: 15PX;
+            font-weight: 500;
             background-color: white;
+            margin-top: 0;
+            
         }
 
         .rating {
             background-color: white;
+            color: orange;
+
+            i{
+                background-color: white;
+            }
         }
 
         p {
-            font-size: 15px;
+            font-size: 13px;
             color: gray;
             background-color: white;
         }
